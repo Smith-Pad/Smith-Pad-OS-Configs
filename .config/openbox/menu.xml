@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+
+
+
+	<menu id="apps-term-menu" label="NAME OF MENU">
+
+		<item label="LABEL NAME">
+			<action name="Execute">
+				<command>HERE</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+
+	</menu>
+
+
+</openbox_menu>
