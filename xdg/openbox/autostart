@@ -17,4 +17,4 @@
 #xfce-mcs-manager &
 
 
-electron 
+sh Smith-Pad-OS-Shell/run.sh
