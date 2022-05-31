@@ -18,6 +18,6 @@ cd .config/
 
 ## Step 2 
 
-cp -R openbox /usr/share/xdg/
+cp -R openbox /etc/xdg/
 
 ```
