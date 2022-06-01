@@ -17,4 +17,4 @@
 #xfce-mcs-manager &
 
 
-sh run.sh
+electron index.js --no-sandbox
