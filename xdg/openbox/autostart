@@ -17,4 +17,4 @@
 #xfce-mcs-manager &
 
 
-electron --no-sandbox
+electron 
