@@ -1,0 +1,11 @@
+[Unit]
+
+Description=hello world 
+
+[Service]
+
+ExecStart=/bin/bash /usr/sbin/example.sh
+
+
+[Install]
+WantedBy=multi-user.target
