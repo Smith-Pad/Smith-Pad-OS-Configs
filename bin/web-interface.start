@@ -1,0 +1,10 @@
+#####################################################
+#         web-interface.start
+#
+#
+#####################################################
+
+
+
+systemctl enable Smith-Pad-OS-Web-Interface.service
+systemctl start Smith-Pad-OS-Web-Interface.service
