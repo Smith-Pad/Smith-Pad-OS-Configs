@@ -1,0 +1,11 @@
+[Unit]
+
+Description=template
+
+[Service]
+
+ExecStart=/bin/bash /usr/bin
+
+
+[Install]
+WantedBy=multi-user.target
