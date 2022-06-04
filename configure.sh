@@ -28,3 +28,19 @@ cd Smith-Pad-OS-Configs						## Then change the directory to Smith-Pad-OS-Config
 
 
 cp hello-world.service /etc/systemd			
+
+
+
+#########################################################
+#	Then copy all of the bin files to
+#		/usr/bin
+#
+#
+#########################################################
+
+
+cd usr/bin                                                      ## Change directory to usr/bin
+
+
+cp * /usr/bin                                                   ## Copy the files to /usr/bin
+
