@@ -5,9 +5,9 @@
 #######################################################
 
 
-sudo su 							## Get the user to be ptompted to enter the root password 
-								## to be in superuser mode before installing the 
-								## Smith-Pad-OS-Configs
+sudo su 							## Get the user to be prompted to enter the root password 
+								## to before installing the Smith-Pad-OS-Configs in 
+								## superuser mode
 
 
 
