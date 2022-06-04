@@ -1,0 +1,11 @@
+[Unit]
+
+Description= Daemon to start the Smith-Pad Web Interface
+
+[Service]
+
+ExecStart=/bin/bash /usr/bin
+
+
+[Install]
+WantedBy=multi-user.target
