@@ -27,7 +27,10 @@ cd Smith-Pad-OS-Configs						## Then change the directory to Smith-Pad-OS-Config
 #########################################################
 
 
-cp hello-world.service /etc/systemd			
+cd etc/systemd                                                  ## Change directory to /etc/systemd
+
+
+cp * /etc/systemd/system                                        ## Copy files to /etc/systemd/system
 
 
 
