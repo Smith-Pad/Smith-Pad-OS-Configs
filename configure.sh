@@ -47,3 +47,20 @@ cd usr/bin                                                      ## Change direct
 
 cp * /usr/bin                                                   ## Copy the files to /usr/bin
 
+
+
+
+#################################################################
+#	Then copy all of the var/Smith-Pad-OS-Shell files to
+#		/var/Smith-Pad-OS-Shell
+#
+#
+#################################################################
+
+
+cd var/					## Change directory to /var/
+
+
+cp -R Smith-Pad-OS-Shell  /var/		## Copy the files to /var/Smith-Pad-OS-Shell
+
+
