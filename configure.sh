@@ -64,3 +64,15 @@ cd var/								## Change directory to /var/
 cp -R Smith-Pad-OS-Shell  /var/					## Copy the files to /var/Smith-Pad-OS-Shell
 
 
+
+
+#################################################################
+#	Then copy all of the xdg files to 
+#		/etc/xdg/openbox
+#
+#
+#################################################################
+
+cd xdg/                                                  ## Change directory to xdg/
+
+cp -R openbox /etc/xdg/	                                 ## Copy the files to /etc/xdg/
