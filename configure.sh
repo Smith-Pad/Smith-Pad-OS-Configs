@@ -134,3 +134,5 @@ echo """
 """
 sleep 1
 clear
+
+reboot
