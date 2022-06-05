@@ -58,9 +58,9 @@ cp * /usr/bin                                                   ## Copy the file
 #################################################################
 
 
-cd var/					## Change directory to /var/
+cd var/								## Change directory to /var/
 
 
-cp -R Smith-Pad-OS-Shell  /var/		## Copy the files to /var/Smith-Pad-OS-Shell
+cp -R Smith-Pad-OS-Shell  /var/					## Copy the files to /var/Smith-Pad-OS-Shell
 
 
