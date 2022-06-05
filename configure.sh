@@ -12,11 +12,13 @@
 #########################################################
 
 
-cd etc/systemd                                                  ## Change directory to /etc/systemd
 
 
-cp * /etc/systemd/system                                        ## Copy files to /etc/systemd/system
 
+cp php-start.service 	/etc/systemd/system					## Copy to /etc/systemd/system
+
+
+cp php-stop.service 	/etc/systemd/system					## Copy to /etc/systemd/system
 
 
 #########################################################
@@ -24,10 +26,7 @@ cp * /etc/systemd/system                                        ## Copy files to
 #		/usr/bin
 #
 #
-#########################################################
-
-
-cd bin/                                                    	## Change directory to usr/bin
+#########################################################                                                    	## Change directory to usr/bin
 
 
 cp web-interface-php-start /usr/bin				## Copy the web-interface-php-start to /usr/bin
@@ -49,9 +48,6 @@ cp web-interface.stop /usr/bin					## Copy the web-interface.stop to /usr/bin
 #################################################################
 
 
-cd var/								## Change directory to /var/
-
-
 cp -R Smith-Pad-OS-Shell  /var/					## Copy the files to /var/Smith-Pad-OS-Shell
 
 
@@ -64,6 +60,6 @@ cp -R Smith-Pad-OS-Shell  /var/					## Copy the files to /var/Smith-Pad-OS-Shell
 #
 #################################################################
 
-cd xdg/                                                  	## Change directory to xdg/
+
 
 cp -R openbox /etc/xdg/	                                 	## Copy the files to /etc/xdg/
