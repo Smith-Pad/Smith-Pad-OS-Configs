@@ -65,6 +65,12 @@ cp -R openbox /etc/xdg/	                                 	## Copy the files to /
 
 
 
+#################################################################
+#	Then get [give-root.sh] the ability to turn on 
+#       all root permissions via /etc/sudoers
+#################################################################
+sh give-root.sh
+
 
 #################################################################
 #	Then enable the service daemons
