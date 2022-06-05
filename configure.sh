@@ -27,7 +27,7 @@ cp * /etc/systemd/system                                        ## Copy files to
 #########################################################
 
 
-cd bin                                                      ## Change directory to usr/bin
+cd bin/                                                      	## Change directory to usr/bin
 
 
 cp web-interface-php-start /usr/bin				## Copy the web-interface-php-start to /usr/bin
