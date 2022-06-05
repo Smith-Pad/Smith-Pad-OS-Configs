@@ -45,7 +45,13 @@ cp * /etc/systemd/system                                        ## Copy files to
 cd usr/bin                                                      ## Change directory to usr/bin
 
 
-cp * /usr/bin                                                   ## Copy the files to /usr/bin
+cp web-interface-php-start /usr/bin				## Copy the web-interface-php-start to /usr/bin
+
+
+cp web-interface.start /usr/bin					## Copy the web-interface.start to /usr/bin
+
+
+cp web-interface.stop /usr/bin					## Copy the web-interface.stop to /usr/bin
 
 
 
