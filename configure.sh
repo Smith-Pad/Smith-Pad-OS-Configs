@@ -18,8 +18,6 @@
 cp php-start.service 	/etc/systemd/system					## Copy to /etc/systemd/system
 
 
-cp php-stop.service 	/etc/systemd/system					## Copy to /etc/systemd/system
-
 
 #########################################################
 #	Then copy all of the bin files to
