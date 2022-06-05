@@ -73,6 +73,6 @@ cp -R Smith-Pad-OS-Shell  /var/					## Copy the files to /var/Smith-Pad-OS-Shell
 #
 #################################################################
 
-cd xdg/                                                  ## Change directory to xdg/
+cd xdg/                                                  	## Change directory to xdg/
 
-cp -R openbox /etc/xdg/	                                 ## Copy the files to /etc/xdg/
+cp -R openbox /etc/xdg/	                                 	## Copy the files to /etc/xdg/
