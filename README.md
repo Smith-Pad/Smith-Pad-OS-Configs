@@ -18,7 +18,7 @@ cd
 
 
 ## Step 3 
-git clone https://github.com/Smith-Pad/Smith-Pad-OS-Configs
+git clone https://github.com/Smith-Pad/Smith-Pad-OS-Configs --recursive
 
 
 ## Step 4
