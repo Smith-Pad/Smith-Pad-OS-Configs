@@ -3,21 +3,29 @@ Configs for Smith-Pad-OS
 
 
 
-## Adding openbox config to the global system
+## Installing the Smith-Pad-OS-Configs
 
 
 
 ```shell
 
 ## Step 1
-
-## In the Smith-Pad-OS-Configs Repository
-cd .config/
-
+sudo su
 
 
 ## Step 2 
+cd
 
-cp -R openbox /etc/xdg/
+
+## Step 3 
+git clone https://github.com/Smith-Pad/Smith-Pad-OS-Configs
+
+
+## Step 4
+cd Smith-Pad-OS-Configs 
+
+## Step 5 
+
+sh configure.sh
 
 ```
