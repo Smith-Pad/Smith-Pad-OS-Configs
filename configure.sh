@@ -4,21 +4,21 @@
 #
 #######################################################
 
-#########################################################
-#	Then copy all of the systemd files to
-#		/etc/systemd/system
-#
-#
-#########################################################
 
-
-
-
+###################################################
+##	Copy systemd daemons to /etc/systemd/system
+##
+###################################################
 
 cp php-start.service 	/etc/systemd/system					## Copy to /etc/systemd/system
-
-
 cp Smith-Pad-OS-Web-Interface.service /etc/systemd/system                       ## Copy to /etc/systemd/system
+
+
+
+###################################################
+##	Copy bin files to  /etc/systemd/system
+##
+###################################################
 
 
 cp web-interface-php-start /usr/bin						## Copy to /usr/bin
@@ -28,6 +28,10 @@ cp web-interface-php-start /usr/bin						## Copy to /usr/bin
 cp web-interface-php-stop /usr/bin						## Copy to /usr/bin
 
 cp php-start.sh	/usr/bin							## Copy to /usr/bin								
+
+
+
+
 
 
 
