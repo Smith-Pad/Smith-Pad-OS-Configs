@@ -18,6 +18,11 @@
 cp php-start.service 	/etc/systemd/system					## Copy to /etc/systemd/system
 
 
+cp Smith-Pad-OS-Web-Interface.service /etc/systemd/system                       ## Copy to /etc/systemd/system
+
+
+
+
 
 
 
