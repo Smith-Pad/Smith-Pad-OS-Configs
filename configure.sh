@@ -24,6 +24,16 @@ cp php-start.sh	/usr/sbin							## Copy to /usr/sbin
 
 
 ###################################################
+##	Clone Smith-Pad-OS-Shell to /var/
+##
+###################################################
+
+cd /var
+rm -rf Smith-Pad-OS-Shell
+git clone https://github.com/Smith-Pad-OS-Shell
+
+
+###################################################
 ##	Enable systemd daemons
 ###################################################
 
