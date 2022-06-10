@@ -25,8 +25,6 @@ cp web-interface-php-start /usr/bin						## Copy to /usr/bin
 
 cp web-interface-php-start /usr/bin						## Copy to /usr/bin
 
-cp web-interface-php-stop /usr/bin						## Copy to /usr/bin
-
 cp php-start.sh	/usr/bin							## Copy to /usr/bin								
 
 
