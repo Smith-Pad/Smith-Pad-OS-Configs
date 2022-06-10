@@ -31,8 +31,12 @@ cp php-start.sh	/usr/bin							## Copy to /usr/bin
 
 
 
+###################################################
+##	Enable systemd daemons
+###################################################
 
-
+systemctl enable php-start.service 						## Enable php-start.service daemon
+systemctl enable Smith-Pad-OS-Web-Interface.service				## Enable Smith-Pad-OS-Web-Interface.service daemon
 
 
 
