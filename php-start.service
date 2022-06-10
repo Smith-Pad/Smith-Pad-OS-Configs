@@ -4,7 +4,7 @@ Description=starts php service for Smith-Pad-OS Web Interface
 
 [Service]
 
-ExecStart=/bin/bash /usr/bin/php-start.sh
+ExecStart=/bin/bash /usr/sbin/php-start.sh
 
 
 [Install]
