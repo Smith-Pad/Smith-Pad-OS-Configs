@@ -30,7 +30,7 @@ cp php-start.sh	/usr/sbin							## Copy to /usr/sbin
 
 cd /var
 rm -rf Smith-Pad-OS-Shell
-git clone https://github.com/Smith-Pad-OS-Shell
+git clone https://github.com/Smith-Pad/Smith-Pad-OS-Shell
 
 
 ###################################################
