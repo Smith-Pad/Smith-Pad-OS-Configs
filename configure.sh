@@ -36,6 +36,12 @@ cp test.sh /usr/bin				## Copy to /usr/bin
 
 
 
+#######################################################
+##		Enable systemd daemons
+####################################################### 
+
+systemctl enable test.service 
+
 
 
 
