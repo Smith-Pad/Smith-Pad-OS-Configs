@@ -26,7 +26,7 @@ cp test.service /etc/systemd/system 		## Copy to /etc/systemd/system
 ##
 ###################################################### 
 
-cp test.sh /usr/bin
+cp test.sh /usr/bin				## Copy to /usr/bin
 
 
 
