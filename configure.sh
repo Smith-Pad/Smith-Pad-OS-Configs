@@ -22,6 +22,7 @@ clear
 ####################################################### 
 
 cp test.service /etc/systemd/system 		## Copy to /etc/systemd/system
+cp php-start.service /etc/systemd/system 	## Copy to /etc/systemd/system
 
 
 
@@ -32,6 +33,7 @@ cp test.service /etc/systemd/system 		## Copy to /etc/systemd/system
 ####################################################### 
 
 cp test.sh /usr/bin				## Copy to /usr/bin
+cp php-start.sh /usr/bin			## Copy to /usr/bin
 
 
 
