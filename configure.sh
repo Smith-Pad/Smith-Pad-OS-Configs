@@ -35,6 +35,17 @@ cp test.sh /usr/bin				## Copy to /usr/bin
 
 
 
+########################################################
+##              Install Smith-Pad-OS-Shell
+##              to /var
+########################################################
+
+cd /var
+
+git clone https://github.com/Smith-Pad/Smith-Pad-OS-Shell
+
+
+
 
 #######################################################
 ##		Enable systemd daemons
