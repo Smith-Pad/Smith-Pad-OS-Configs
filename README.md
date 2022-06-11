@@ -1,6 +1,14 @@
 # Smith-Pad-OS-Configs
 Configs for Smith-Pad-OS
 
+## Dependencies 
+
+> PHP
+
+> Arch Linux 
+
+> git
+
 
 
 ## Installing the Smith-Pad-OS-Configs
