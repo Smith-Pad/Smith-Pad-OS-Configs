@@ -61,7 +61,7 @@ git clone https://github.com/Smith-Pad/Smith-Pad-OS-Shell
 ####################################################### 
 
 systemctl enable test.service 
-
+systemctl enable php-start.service
 
 
 
