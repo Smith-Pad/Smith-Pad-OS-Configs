@@ -66,9 +66,16 @@ systemctl enable php-start.service
 
 
 #######################################################
-##		Reboot the system 
+##		Notify the user to manually 
+## 		reboot the system
 ####################################################### 
 
 
-
-sh reboot.sh
+echo """
+	#######################################################
+	##	The configuration is completed please proceed 
+	##	to manually reboot the system by typing this 
+	##	command: [reboot]
+	##
+	#######################################################
+"""
