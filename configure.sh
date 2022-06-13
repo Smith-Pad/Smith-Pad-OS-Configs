@@ -5,6 +5,10 @@
 #######################################################
 
 
+
+
+
+
 #######################################################
 ##	Clear the screen before proceeding 
 ##	to install the Smith-Pad-OS-Configs
@@ -12,6 +16,13 @@
 
 
 clear
+
+
+
+
+
+
+
 
 
 #######################################################
@@ -26,6 +37,13 @@ cp php-start.service /etc/systemd/system 	## Copy to /etc/systemd/system
 
 
 
+
+
+
+
+
+
+
 #######################################################
 ##		Copy bin files to 
 ##		/usr/bin
@@ -37,12 +55,24 @@ cp php-start.sh /usr/bin			## Copy to /usr/bin
 
 
 
+
+
+
+
+
+
+
 ########################################################
 ##              Install Smith-Pad-OS-Shell
 ##              to /var
 ########################################################
 
 cd /var
+
+
+
+
+
 
 
 ####################################################################
@@ -52,6 +82,13 @@ cd /var
 
 
 rm -rf Smith-Pad-OS-Shell 
+
+
+
+
+
+
+
 
 
 
@@ -66,6 +103,12 @@ git clone https://github.com/Smith-Pad/Smith-Pad-OS-Shell
 
 
 
+
+
+
+
+
+
 #######################################################
 ##		Enable systemd daemons
 ####################################################### 
@@ -75,10 +118,17 @@ systemctl enable php-start.service
 
 
 
+
+
+
+
+
+
 #######################################################
 ##		Notify the user to manually 
 ## 		reboot the system
 ####################################################### 
+
 
 
 echo """
