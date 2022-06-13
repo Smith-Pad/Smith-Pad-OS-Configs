@@ -44,13 +44,23 @@ cp php-start.sh /usr/bin			## Copy to /usr/bin
 
 cd /var
 
+
+####################################################################
 ## Prevent Conflicts before updating/installing Smith-Pad-OS-Shell
 ## via Git
+####################################################################
+
 
 rm -rf Smith-Pad-OS-Shell 
 
 
+
+
+#####################################################
 ## Install the Smith-Pad-OS-Shell repository via Git
+#####################################################
+
+
 git clone https://github.com/Smith-Pad/Smith-Pad-OS-Shell
 
 
