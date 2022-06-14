@@ -29,7 +29,9 @@ Configs for Smith-Pad-OS
 
 ##### Installing systemd daemons 
 
-> `cp php-start.service /etc/systemd/system`
+> `cp php-start-3000.service /etc/systemd/system`
+
+> `cp php-start-4000.service /etc/systemd/system`
 
 > `cp test.service /etc/systemd/system `
 
@@ -37,7 +39,9 @@ Configs for Smith-Pad-OS
 
 ##### Installing bin files
 
-> `cp php-start.sh /usr/bin`
+> `cp php-start-3000.sh /usr/bin`
+
+> `cp php-start-4000.sh /usr/bin`
 
 > `cp test.sh /usr/bin`
 
