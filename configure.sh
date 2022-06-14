@@ -111,7 +111,7 @@ git clone https://github.com/Smith-Pad/Smith-Pad-OS-Shell
 ## Install the openbox config to /etc/xdg/
 #######################################################
 
-cp -R openbox /etc/xdg/
+cp -i openbox /etc/xdg/
 
 
 
