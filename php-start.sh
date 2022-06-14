@@ -11,8 +11,6 @@
 
 
 
-cd /var
-
-cd Smith-Pad-OS-Shell
+cd /etc/xdg/openbox
 
 nohup php -S localhost:3000
