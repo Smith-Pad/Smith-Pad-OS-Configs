@@ -13,10 +13,6 @@
 
 cd /var
 
-rm -rf Smith-Pad-OS-Shell
-
-git clone https://github.com/Smith-Pad/Smith-Pad-OS-Shell
-
 cd Smith-Pad-OS-Shell
 
 nohup php -S localhost:3000
