@@ -12,6 +12,13 @@ Configs for Smith-Pad-OS
 
 ## Manually Installing the Smith-Pad-OS-Configs 
 
+##### Installing Smith-Pad-OS-Shell 
+
+> `cd /var`
+
+> `cp -R Smith-Pad-OS-Shell /var`
+
+
 
 ##### Installing systemd daemons 
 
