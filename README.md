@@ -12,7 +12,31 @@ Configs for Smith-Pad-OS
 
 ## Manually Installing the Smith-Pad-OS-Configs 
 
-> Description later....
+
+##### Installing systemd daemons 
+
+> `cp php-start.service /etc/systemd/system`
+
+> `cp test.service /etc/systemd/system `
+
+
+
+##### Installing bin files
+
+> `cp php-start.sh /usr/bin`
+
+> `cp test.sh /usr/bin`
+
+
+
+##### Installing Smith-Pad-OS-Shell to /var
+
+> `cd /var`
+
+> `git clone https://github.com/Smith-Pad/Smith-Pad-OS-Shell`
+
+
+
 
 
 
