@@ -47,6 +47,7 @@ cp -R openbox /etc/xdg
 
 cp test.service /etc/systemd/system 		## Copy to /etc/systemd/system
 cp php-start-one.service /etc/systemd/system 	## Copy to /etc/systemd/system
+cp php-start-two.service /etc/systemd/system 	## Copy to /etc/systemd/system
 
 
 
@@ -65,6 +66,7 @@ cp php-start-one.service /etc/systemd/system 	## Copy to /etc/systemd/system
 
 cp test.sh /usr/bin				## Copy to /usr/bin
 cp php-start-one.sh /usr/bin			## Copy to /usr/bin
+cp php-start-two.sh /usr/bin			## Copy to /usr/bin
 
 
 
