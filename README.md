@@ -20,6 +20,13 @@ Configs for Smith-Pad-OS
 
 
 
+##### Installing openbox config 
+
+> `cp -R openbox /etc/xdg/`
+
+
+
+
 ##### Installing systemd daemons 
 
 > `cp php-start.service /etc/systemd/system`
