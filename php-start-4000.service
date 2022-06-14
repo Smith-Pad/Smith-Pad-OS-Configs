@@ -1,0 +1,11 @@
+[Unit]
+
+Description= Starts PHP for External-Apps-Launcher
+
+[Service]
+
+ExecStart=/bin/bash /usr/bin/test.sh
+
+
+[Install]
+WantedBy=multi-user.target
