@@ -29,14 +29,6 @@ Configs for Smith-Pad-OS
 
 
 
-##### Installing Smith-Pad-OS-Shell to /var
-
-> `cd /var`
-
-> `git clone https://github.com/Smith-Pad/Smith-Pad-OS-Shell`
-
-
-
 
 
 
