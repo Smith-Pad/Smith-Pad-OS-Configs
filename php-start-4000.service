@@ -4,7 +4,7 @@ Description= Starts PHP for External-Apps-Launcher
 
 [Service]
 
-ExecStart=/bin/bash /usr/bin/test.sh
+ExecStart=/bin/bash /usr/bin/php-start-4000.sh
 
 
 [Install]
