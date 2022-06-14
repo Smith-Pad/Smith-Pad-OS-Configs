@@ -10,6 +10,11 @@ Configs for Smith-Pad-OS
 > git
 
 
+## Manually Installing the Smith-Pad-OS-Configs 
+
+> Description later....
+
+
 
 ## Installing the Smith-Pad-OS-Configs
 
