@@ -38,9 +38,9 @@ cp -R openbox /etc/xdg
 ##
 ####################################################### 
 
-cp test.service /etc/systemd/system 		## Copy to /etc/systemd/system
-cp php-start-3000.service			## Copy to /etc/systemd/system
-cp php-start-4000.service			## Copy to /etc/systemd/system
+cp test.service /etc/systemd/system 				## Copy to /etc/systemd/system
+cp php-start-3000.service /etc/systemd/system			## Copy to /etc/systemd/system
+cp php-start-4000.service /etc/systemd/system			## Copy to /etc/systemd/system
 
 
 
