@@ -11,8 +11,6 @@
 
 
 
-cd /var
-
-cd External-Apps-Interface
+cd /var/External-Apps-Launcher
 
 nohup php -S localhost:4000
