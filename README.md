@@ -18,6 +18,8 @@ Configs for Smith-Pad-OS
 
 > `cp -R Smith-Pad-OS-Shell /var`
 
+> `cp -R External-Apps-Launcher /var`
+
 
 
 ##### Installing openbox config 
@@ -49,6 +51,8 @@ Configs for Smith-Pad-OS
 
 
 ##### Manually enabling systemd daemons
+
+> `systemctl enable test.service`
 
 > `systemctl enable php-start-3000.service`
 
