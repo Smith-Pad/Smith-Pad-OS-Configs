@@ -15,4 +15,4 @@ cd /var
 
 cd External-Apps-Interface
 
-nohup php -S localhost:4000/
+nohup php -S localhost:4000
