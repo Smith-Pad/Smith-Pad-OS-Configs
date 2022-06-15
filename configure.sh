@@ -64,6 +64,15 @@ cp php-start-4000.sh /usr/bin				## Copy to /usr/bin
 
 
 
+#######################################################
+##		Disable systemd daemons (prevent conflict)
+####################################################### 
+
+systemctl disable test.service 
+systemctl disable php-start-3000.service
+systemctl disable php-start-4000.service
+
+
 
 #######################################################
 ##		Enable systemd daemons
