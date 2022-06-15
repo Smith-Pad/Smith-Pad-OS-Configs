@@ -48,7 +48,7 @@ Configs for Smith-Pad-OS
 
 
 
-##### Manually enabing systemd daemons
+##### Manually enabling systemd daemons
 
 > `systemctl enable php-start-3000.service`
 
