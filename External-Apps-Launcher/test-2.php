@@ -2,4 +2,4 @@
 exec("dolphin");
 ?>
 
-<meta http-equiv="refresh" content="0; url= test-menu.php">
+<meta http-equiv="refresh" content="0; url= index.php">
