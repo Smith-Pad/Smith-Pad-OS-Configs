@@ -40,7 +40,6 @@ cp -R openbox /etc/xdg
 
 cp test.service /etc/systemd/system 				## Copy to /etc/systemd/system
 cp php-start-3000.service /etc/systemd/system			## Copy to /etc/systemd/system
-cp php-start-4000.service /etc/systemd/system			## Copy to /etc/systemd/system
 
 
 
@@ -59,7 +58,6 @@ cp php-start-4000.service /etc/systemd/system			## Copy to /etc/systemd/system
 
 cp test.sh /usr/bin					## Copy to /usr/bin
 cp php-start-3000.sh /usr/bin				## Copy to /usr/bin
-cp php-start-4000.sh /usr/bin				## Copy to /usr/bin
 
 
 
@@ -70,7 +68,6 @@ cp php-start-4000.sh /usr/bin				## Copy to /usr/bin
 
 systemctl disable test.service 
 systemctl disable php-start-3000.service
-systemctl disable php-start-4000.service
 
 
 
@@ -80,7 +77,6 @@ systemctl disable php-start-4000.service
 
 systemctl enable test.service 
 systemctl enable php-start-3000.service
-systemctl enable php-start-4000.service
 
 
 
