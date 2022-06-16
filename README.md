@@ -88,9 +88,3 @@ cd Smith-Pad-OS-Configs
 sh configure.sh
 
 ```
-
-
-
-# TODO 
-
-* Problem with starting php with both 3000 and 4000 ports
