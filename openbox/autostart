@@ -17,4 +17,4 @@
 #xfce-mcs-manager &
 
 
-electron http://localhost:3000 --no-sandbox
+
