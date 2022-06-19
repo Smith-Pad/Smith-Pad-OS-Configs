@@ -97,3 +97,8 @@ sh configure.sh
 	* Create GRUB Menu Options
 	* Make separate script for that 
 
+
+* Customize .bashrc config 
+	* Create global .bashrc config 
+	* Make aliases to maintain Smith-Pad-OS
+	* Make separate script for that
