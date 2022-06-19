@@ -88,3 +88,12 @@ cd Smith-Pad-OS-Configs
 sh configure.sh
 
 ```
+
+
+# TODO: 
+
+* Customize GRUB menu 
+	* Create GRUB Menu wallpaper
+	* Create GRUB Menu Options
+	* Make separate script for that 
+
