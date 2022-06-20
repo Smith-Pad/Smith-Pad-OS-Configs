@@ -14,4 +14,4 @@
 ##
 ################################################################
 
-alias smith.pad.os.update.packages = 'sudo pacman -Syyu'
+alias smith.pad.os.update.packages='sudo pacman -Syyu'
