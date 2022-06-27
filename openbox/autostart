@@ -18,4 +18,4 @@
 
 
 
-xfce4-session
+electron http://localhost:3000 --no-sandbox
