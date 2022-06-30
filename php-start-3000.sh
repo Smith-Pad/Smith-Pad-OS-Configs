@@ -12,8 +12,4 @@
 
 
 
-cd /var
-
-cd Smith-Pad-OS-Shell 
-
 nohup php -S localhost:3000
