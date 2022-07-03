@@ -5,9 +5,7 @@
 ---------------------------------------------------------------->
 
 <a href="#settings" class="button">Settings</a>
-<a href="schedule-display.php" class="button">Schedule Display</a>
-<a href="Math-Operations.php" class="button">Math Operations</a>
-<a href="./Subjects/Subjects.php" class="button">Subjects</a>
-<a href="./APPS/Clock/index.php" class="button">Clock Mode</a>
-<a href="applications-menu.php" class="button">Applications</a>
-<a href="http://localhost:4000/EXTERNAL_ROUTE_APPS/index.php" class="button">Test-Menu</a>
+<a href="/launch-first-app.php" class="button">KDE Konsole</a>
+<a href="/launch-second-app.php" class="button">KDE System Settings</a>
+<a href="/launch-third-app.php" class="button">Search</a>
+<a href="/External-Apps-Launcher/index.php" class="button">External-Apps-Launcher</a>
