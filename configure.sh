@@ -40,6 +40,20 @@ function enableServices() {
 	systemctl enable test.service
 }
 
+#######################################################################
+## Make a function to copy openbox config to /home/<user>/.config/   ##
+#######################################################################
+##		 						    ###
+##                                                                  ###
+##                                                                  ###
+#######################################################################
+## For now, this is copied to a user's directory. Please specify here #
+## before running the script                                          #
+#######################################################################
+function copy_openbox_configs() {
+	cp -R openbox 			/home/<username>/.config/
+}
+
 #######################################################
 ## Make a function to restart the system
 #######################################################	
