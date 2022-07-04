@@ -74,4 +74,5 @@ clearScreen
 copyServices
 copyScripts
 enableServices
+copy_openbox_configs
 rebootSystem
