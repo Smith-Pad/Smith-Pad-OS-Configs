@@ -1,7 +1,8 @@
 # Smith-Pad-OS-Configs
+
 Configs for Smith-Pad-OS
 
-## Dependencies 
+## Dependencies
 
 > PHP
 
@@ -9,16 +10,28 @@ Configs for Smith-Pad-OS
 
 > git
 
+## Configure the `.bashrc` config to Smith-Pad-OS or other Arch based Distributions
 
-# TODO: 
+```shell
+## Please ensure you are in root. 
+
+cp .bashrc ../.config/
+```
+
+## Adding Smith-Pad-OS-Shell configuration files
+
+```
+Description Later...
+```
+
+# TODO:
 
 * Customize GRUB menu 
-	* Create GRUB Menu wallpaper
-	* Create GRUB Menu Options
-	* Make separate script for that 
-
+  * Create GRUB Menu wallpaper
+  * Create GRUB Menu Options
+  * Make separate script for that 
 
 * Customize .bashrc config 
-	* Create global .bashrc config 
-	* Make aliases to maintain Smith-Pad-OS
-	* Make separate script for that
+  * Create global .bashrc config 
+  * Make aliases to maintain Smith-Pad-OS
+  * Make separate script for that
