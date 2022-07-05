@@ -15,3 +15,4 @@
 ################################################################
 
 alias smith.pad.os.update.packages='sudo pacman -Syyu'
+alias smith.pad.os.super.user.mode='sudo su'
