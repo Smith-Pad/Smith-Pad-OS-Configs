@@ -10,13 +10,7 @@ Configs for Smith-Pad-OS
 
 > git
 
-## Configure the `.bashrc` config to Smith-Pad-OS or other Arch based Distributions
 
-```shell
-## Please ensure you are in root. 
-
-cp .bashrc ../.config/
-```
 
 ## Adding Smith-Pad-OS-Shell configuration files
 
