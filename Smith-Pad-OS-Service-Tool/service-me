@@ -1,0 +1,120 @@
+#!/usr/bin/env bash
+
+############################################################################################
+##              Smith-Pad-OS-Service-Tool
+##
+##      Description: This script allows the ability to maintain Smith-Pad-OS or Arch-Linux 
+##      based distributions.
+############################################################################################
+
+
+clear
+
+echo """
+----------------------------------------------------------
+-   Please choose the options:
+----------------------------------------------------------
+-
+-
+-   1) Update Packages
+-
+-
+-
+-   2) Re-install Packages
+-
+-
+-   exit) Exit the Program
+----------------------------------------------------------
+"""
+while :
+        do 
+	read CHOICE
+
+	case $CHOICE in 
+
+		## If the user chooses the first choice, it will notify the user
+                ## to enter the adminstrator password, and then it will update
+                ## the packages via the Pacman package manager.
+
+		1)
+                        clear
+                        notify-send 'Please enter the adminstrator password before proceeding to update packages'
+                        echo """
+                        #################################################################################
+                        #     /!\ Please enter the adminstrator password before proceeding to 
+                        #         update packages. 
+                        #
+                        #
+                        #     |i| What this would do? 
+                        #       
+                        #         * Updates Applications and Dependencies in your system.
+                        #         * This will reboot the system
+                        #
+                        #     /!\ Make sure the system that you are using is fully backed up, before
+                        #         proceeding to re-install packages. Technology is not always perfect. 
+                        #         and if you don't want to proceed to re-install the packages, please
+                        #         contact your system adminstrator.
+                        #################################################################################
+                        """
+                        sudo su
+			;;
+
+
+		## If the user chooses the second choice, it wil notify the user
+                ## to enter the adminstrator password, and then it will re-install
+                ## the packages via the Pacman package manager.
+
+		
+		2)
+			clear
+                        notify-send 'Please enter the adminstrator password before proceeding to re-install packages'
+                        echo """
+                        #################################################################################
+                        #     /!\ Please enter the adminstrator password before proceeding to 
+                        #         re-install packages. 
+                        #
+                        #
+                        #     |i| What this would do? 
+                        #       
+                        #         * It will re-install existing applications
+                        #         * It will add new applications 
+                        #         * It will delete applications that is not needed
+                        #         * This will reboot the system.
+                        #        
+                        #
+                        #     /!\ Make sure the system that you are using is fully backed up, before
+                        #         proceeding to re-install packages. Technology is not always perfect. 
+                        #         and if you don't want to proceed to re-install the packages, please
+                        #         contact your system adminstrator.
+                        #################################################################################
+                        """
+                        sudo su
+                        cd 
+                        cd Smith-Pad-OS-Installation-Script
+
+			;;		
+
+
+
+		## After the user types 'exit', it will exit the program
+
+		exit)
+			exit
+			;;
+			
+
+
+		## If the user presses a unknown character, it will inform
+		## the user to choose the correct commands. 
+		*)
+			echo """
+                        ---------------------------------------------------------
+                        -   Error: The keystroke that you entered is not  
+                        -          recognizable. Please try again.
+                        ---------------------------------------------------------
+
+
+
+			"""
+esac
+done
